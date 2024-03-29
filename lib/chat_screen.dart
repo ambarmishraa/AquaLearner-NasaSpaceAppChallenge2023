@@ -40,7 +40,7 @@ class _ChatGPTScreenState extends State<ChatGPTScreen> {
 
   Future<String> sendMessageToChatGpt(String message) async {
     final apiKey =
-        "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"; // Replace with your OpenAI API key
+        ""; // Replace with your OpenAI API key
 
     if (apiKey.isEmpty) {
       return "API key missing or invalid";
