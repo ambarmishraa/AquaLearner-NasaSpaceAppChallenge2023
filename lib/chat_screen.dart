@@ -45,8 +45,8 @@ class _ChatGPTScreenState extends State<ChatGPTScreen> {
       return "API key missing or invalid";
     }
 
-    final modelEndpoint =
-        "https://api.openai.com/v1/completions"; // Check the correct endpoint
+    // final modelEndpoint =
+    //     "https://api.openai.com/v1/completions"; // Check the correct endpoint
 
     Uri uri = Uri.parse(modelEndpoint);
 
